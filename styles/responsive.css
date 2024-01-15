@@ -1,0 +1,27 @@
+/* mobile device  */
+
+@media screen and (max-width: 600px) {
+    html {
+      font-size: 3.5vw;
+    }
+
+    /* nav bar */
+    .hamburger-menu {
+      display: block;
+    }
+    .hamburger-icon {
+        width: 2.5rem;
+    }
+    nav {
+        padding-top: 2rem;
+    }
+    nav .menu {
+      display: none;
+    }
+    .logo .logo-icon img {
+        width: 3rem;
+    }
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 
 :root {
-    --primary-color: #131318;
-    --secondary-color: #FF5400;
+  --primary-color: #131318;
+  --secondary-color: #ff5400;
 }
 
 * {
@@ -20,6 +20,97 @@ body {
 
 /* common styles  */
 
+.container {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
 /* header styles */
 
 /* nav bar styles  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.125rem 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo h1 {
+  color: var(--primary-color);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.logo h1 span {
+  color: var(--secondary-color);
+}
+
+nav .menu .nav-item {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+nav ul li a {
+  color: #424247;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+nav ul li:nth-child(1) a {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  color: #808080;
+}
+
+/* hamburger menu  */
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-icon {
+  width: 3.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.ham-menu-item {
+  display: none;
+  position: absolute;
+  right: 5vw;
+  list-style: none;
+  background-color: rgb(255, 250, 246);
+  box-shadow: 0 0 30px 10px rgba(143, 143, 143, 0.247);
+  padding: 1.25rem 0;
+}
+
+.ham-menu-item li {
+  margin-bottom: 0.625rem;
+  padding: 0 1.25rem;
+  transition: all 0.3s;
+}
+
+.ham-menu-item li:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.hamburger-menu:hover .ham-menu-item {
+  display: block;
+}
