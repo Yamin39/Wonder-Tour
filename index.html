@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wonder Tour</title>
-    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <header class="container">
       <nav>
         <div class="logo">
           <div class="logo-icon">
-            <img src="Images/logo.png" alt="Logo" />
+            <img src="images/logo.png" alt="Logo" />
           </div>
           <h1>Wonder <span>Tour</span></h1>
         </div>
@@ -41,7 +45,38 @@
       </nav>
     </header>
 
-    <main></main>
+    <main class="container">
+      <!-- banner -->
+      <section class="banner">
+        <div class="banner-head">
+          <h1>Explore Your Travel</h1>
+          <p class="section-desc">
+            Embark on a journey with Wonder Tour! Explore your travel desires
+            through curated experiences, unlocking wonders at every destination.
+            Start your adventure now!
+          </p>
+        </div>
+        <div class="banner-content">
+          <form>
+            <input type="search" placeholder="Where to go" />
+            <select class="when">
+              <option>When</option>
+              <option>Next Month</option>
+              <option>Next Year</option>
+            </select>
+            <select class="type">
+              <option>Select Type</option>
+              <option>Adventure</option>
+              <option>Holiday</option>
+              <option>Honeymoon</option>
+            </select>
+            <button class="primary-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>Find Now
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>

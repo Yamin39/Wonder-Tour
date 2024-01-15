@@ -30,6 +30,27 @@ img {
   width: 100%;
 }
 
+.section-desc {
+  color: rgba(19, 19, 24, 0.7);
+  line-height: 1.625rem;
+}
+
+.primary-btn {
+  width: 174px;
+  color: #fff;
+  background: var(--secondary-color);
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  padding: 1rem 0;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.primary-btn:hover {
+  background-color: #e05813;
+}
+
 /* header styles */
 
 /* nav bar styles  */
@@ -113,4 +134,78 @@ nav ul li a:hover {
 
 .hamburger-menu:hover .ham-menu-item {
   display: block;
+}
+
+/* main styles  */
+
+/* banner styles  */
+
+.banner {
+  text-align: center;
+  padding: 106px 0;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0)
+    ),
+    url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-head h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.banner-head p {
+  color: #fff;
+  margin: 1.5rem auto 3rem;
+  width: 700px;
+}
+
+.banner-content {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.banner-content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.banner-content form input,
+.banner-content form select {
+  color: rgba(19, 19, 24, 0.5);
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  width: 174px;
+  outline: none;
+  appearance: none;
+}
+
+.banner-content form input::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+}
+
+.banner-content form select {
+  background-image: url(../images/down-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center right 0.875rem;
+}
+
+.banner-content form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
