@@ -1,27 +1,56 @@
 /* mobile device  */
 
 @media screen and (max-width: 600px) {
-    html {
-      font-size: 3.5vw;
-    }
+  html {
+    font-size: 3.5vw;
+  }
+  .section-desc {
+    line-height: 1.313rem;
+  }
 
-    /* nav bar */
-    .hamburger-menu {
-      display: block;
-    }
-    .hamburger-icon {
-        width: 2.5rem;
-    }
-    nav {
-        padding-top: 2rem;
-    }
-    nav .menu {
-      display: none;
-    }
-    .logo .logo-icon img {
-        width: 3rem;
-    }
-    .logo h1 {
-        font-size: 1.5rem;
-    }
+  /* nav bar */
+  .hamburger-menu {
+    display: block;
+  }
+  .hamburger-icon {
+    width: 2.5rem;
+  }
+  nav {
+    padding: 2rem 0;
+  }
+  nav .menu {
+    display: none;
+  }
+  .logo .logo-icon img {
+    width: 3rem;
+  }
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  /* banner  */
+  .banner {
+    padding: 3rem 2rem 2rem;
+  }
+  .banner-head p {
+    width: 100%;
+  }
+  .banner-content form {
+    flex-direction: column;
+  }
+  .banner-content {
+    width: 100%;
+    padding: 20px 16px;
+  }
+  .banner-content form input,
+  .banner-content form select,
+  .banner-content form button {
+    width: calc(100% - 16px);
+  }
+  .banner-head h1 {
+    font-size: 1.6rem;
+  }
+  .banner-head p {
+    font-size: 0.875rem;
+  }
 }
