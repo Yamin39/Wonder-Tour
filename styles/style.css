@@ -239,8 +239,9 @@ main section {
   width: 46%;
 }
 
-.popular-tours-content p, .popular-tours-content li {
-  color: rgba(19, 19, 24, 0.70);
+.popular-tours-content p,
+.popular-tours-content li {
+  color: rgba(19, 19, 24, 0.7);
 }
 
 .popular-tours-content p {
@@ -256,6 +257,112 @@ main section {
 }
 
 .popular-tours-content .para2 {
-  color: #5A5A5D;
+  color: #5a5a5d;
   margin-bottom: 1.5rem;
+}
+
+/* Choose Your Destination section styles */
+
+.destination {
+  text-align: center;
+  overflow: hidden;
+}
+
+.destination-head p {
+  width: 40.25rem;
+  margin: 1.5rem auto 3rem;
+}
+
+.destination-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
+.destination-content .main-padding {
+  padding: 8.25rem 0;
+}
+
+.destination-content .small-padding {
+  padding: 7.813rem 0;
+}
+
+.destination-content .images-1 {
+  grid-column: 1 / span 6;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../images/maldives.png);
+}
+
+.destination-content .images-2 {
+  grid-column: 7 / span 6;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../images/indonesia.png);
+}
+
+.destination-content .images-3 {
+  grid-column: 1 / span 4;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../images/srilanka.png);
+}
+
+.destination-content .images-4 {
+  grid-column: 5 / span 5;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../images/north-america.png);
+}
+
+.destination-content .images-5 {
+  grid-column: 10 / span 3;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../images/kashmir.png);
+}
+
+.destination-content .images-6 {
+  grid-column: 1 / span 5;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../images/bangladesh.png);
+}
+
+.destination-content .images-7 {
+  grid-column: 6 / span 7;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../images/bandarban.png);
+}
+
+.destination-content .img {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
 }
