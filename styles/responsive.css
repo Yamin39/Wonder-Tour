@@ -100,8 +100,21 @@
     grid-column: 1 / span 1;
   }
 
+  /* testimonial */
+  .testimonial-card {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .testi-img {
+    width: 7rem;
+  }
+
   /* newsletter */
-  .newsletter .newsletter-left, .newsletter .newsletter-right {
+  .newsletter .newsletter-left,
+  .newsletter .newsletter-right {
     width: 100%;
   }
   .newsletter-right {

@@ -161,7 +161,8 @@ nav ul li a:hover {
 
 /* main styles  */
 
-header, main {
+header,
+main {
   overflow: hidden;
 }
 
@@ -425,6 +426,56 @@ main section {
 
 .choose-us-content p {
   color: var(--light-gray);
+}
+
+/* testimonial section styles */
+
+.testimonial .testimonial-head {
+  text-align: center;
+}
+
+.testimonial-card {
+  width: 50%;
+  display: flex;
+  gap: 1.25rem;
+  border-radius: 16px;
+  padding: 1.625rem 2rem;
+}
+
+.testimonial .t-card1 {
+  border: 1px solid #c9f4aa;
+  background-color: #c9f4aa1b;
+}
+
+.testimonial .t-card2 {
+  border: 1px solid #b2a4ff;
+  background-color: #b2a4ff1b;
+  margin: 1.5rem auto;
+}
+
+.testimonial .t-card3 {
+  border: 1px solid #99feff;
+  background-color: #99feff1b;
+  margin-left: auto;
+}
+
+.testimonial-card h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.testi-img {
+  width: 10rem;
+}
+
+.testi-img img {
+  border-radius: 100%;
+}
+
+.testi-content .section-desc {
+  margin-top: 1rem;
 }
 
 /* newsletter section style */
