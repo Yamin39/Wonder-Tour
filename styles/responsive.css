@@ -116,4 +116,15 @@
   .newsletter-right .newsletter-popup h2 {
     font-size: 1.375rem;
   }
+
+  /* footer */
+  footer {
+    padding: 2rem 0;
+  }
+  footer .container {
+    padding: 0;
+  }
+  footer hr {
+    margin: 2rem 0;
+  }
 }
