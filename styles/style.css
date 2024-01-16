@@ -41,6 +41,11 @@ img {
   line-height: 1.625rem;
 }
 
+.head-p {
+  width: 40.25rem;
+  margin: 1.5rem auto 3rem;
+}
+
 .primary-btn {
   width: 174px;
   color: #fff;
@@ -144,6 +149,10 @@ nav ul li a:hover {
 }
 
 /* main styles  */
+
+main {
+  overflow: hidden;
+}
 
 main section {
   margin-bottom: 6.25rem;
@@ -265,12 +274,6 @@ main section {
 
 .destination {
   text-align: center;
-  overflow: hidden;
-}
-
-.destination-head p {
-  width: 40.25rem;
-  margin: 1.5rem auto 3rem;
 }
 
 .destination-content {
@@ -365,4 +368,50 @@ main section {
   background-size: cover;
   background-position: center;
   border-radius: 16px;
+}
+
+.choose-us-head {
+  text-align: center;
+}
+
+.choose-us-content {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1.5rem;
+}
+
+.choose-us-content .card {
+  border-radius: 16px;
+  padding: 2rem 3.5rem 2rem 2rem;
+}
+
+.choose-us-content .card:nth-child(1) {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background-color: rgba(251, 181, 99, 0.05);
+  grid-column: 1 / span 4;
+}
+
+.choose-us-content .card:nth-child(2) {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background-color: rgba(41, 206, 246, 0.05);
+  grid-column: 5 / span 4;
+}
+
+.choose-us-content .card:nth-child(3) {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background-color: rgba(233, 68, 68, 0.05);
+  grid-column: 3 / span 4;
+}
+
+.choose-us-content .card-img {
+  width: 4rem;
+}
+
+.choose-us-content h3 {
+  font-size: 1.5rem;
+  margin: 2rem 0 1.125rem;
+}
+
+.choose-us-content p {
+  color: #5a5a5d;
 }
