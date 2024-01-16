@@ -4,8 +4,15 @@
   html {
     font-size: 3.5vw;
   }
+  /* common styles  */
+  .section-title {
+    font-size: 1.563rem;
+  }
   .section-desc {
     line-height: 1.313rem;
+  }
+  main section {
+    margin-bottom: 1.5rem;
   }
 
   /* nav bar */
@@ -52,5 +59,14 @@
   }
   .banner-head p {
     font-size: 0.875rem;
+  }
+
+  /* popular-tours */
+  .popular-tours {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .popular-tours-content, .popular-tours-img {
+    width: 100%;
   }
 }
