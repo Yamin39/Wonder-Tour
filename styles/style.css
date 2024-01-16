@@ -398,6 +398,60 @@ main section {
   color: var(--light-gray);
 }
 
+/* Deals & Discounts */
+
+.deals-head {
+  text-align: center;
+}
+
+.deals-section {
+  padding: 3.5rem;
+  background-image: url(../images/deals-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.deals-card {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 3.125rem;
+}
+
+.deals-card ul i {
+  color: var(--secondary-color);
+}
+
+.deals-card h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 1.5rem 0 1rem;
+}
+
+.deals-card p {
+  color: var(--light-gray);
+  width: 28.25rem;
+}
+
+.deals-card ul {
+  color: var(--light-gray);
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.deals-card h4 {
+  color: var(--secondary-color);
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 1rem 0 1.5rem;
+}
+
 /* testimonial section styles */
 
 .testimonial .testimonial-head {

@@ -101,6 +101,21 @@
     grid-column: 1 / span 1;
   }
 
+  /* deals  */
+
+  .deals-card p {
+    width: 100%;
+  }
+  .deals-card {
+    padding: 1.5rem;
+  }
+  .deals-section {
+    padding: 11rem 1.5rem 1.5rem;
+  }
+  .deals-card ul {
+  flex-wrap: wrap;
+  }
+
   /* testimonial */
   .testimonial-card {
     width: 100%;
